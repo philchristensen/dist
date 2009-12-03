@@ -1,0 +1,17 @@
+== Installation == 
+
+Install the CPAN Options module:
+
+ [phil@optimus Workspace]$ cpan Options
+
+
+Unpack the dist archive:
+
+ [phil@optimus Workspace]$ tar zxvf dist-1.1.tar.gz
+
+
+Make a symlink in /usr/local/bin for dist:
+
+ [phil@optimus Workspace]$ cd dist
+ [phil@optimus      dist]$ sudo ln -s dist.pl /usr/local/bin/dist
+
